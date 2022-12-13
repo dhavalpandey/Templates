@@ -1,4 +1,6 @@
-with open('../../Inputs/Day 9/Day9Input.txt', 'r') as f:
+file_name = ""
+
+with open(file_name, 'r') as f:
     input_file = f.read().strip().split("\n")
 
 def solve():
